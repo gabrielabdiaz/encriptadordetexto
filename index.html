@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+	  <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://gabrielabdiaz.github.io/encriptadordetexto/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Encriptador de Texto">
+    <meta property="og:description" content="Encriptador y Desencriptador con Javascript">
+    
+    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
+
+
+    <link rel="icon" href="./img/favicon.png"> <!-- Icono de la pestaña -->
+    <link rel="apple-touch-icon" href="./img/favicon.png"> <!-- Icono de la pestaña apples -->
+
+    <title>Encriptador</title>
+</head>
+<body>
+	<header class="encabezado">
+		<img src="./img/logo.png" alt="logoalura" class="logo">
+		<h2 class="titulo">ENCRIPTADOR DE TEXTO</h2>
+	</header>
+	<main>
+	<section class="seccion1">
+		<textarea type="text" id="texto" class="input-text" placeholder="Ingrese el texto aqui" cols="30" rows="10"></textarea> 
+        <div class="contenedor-errores"></div>
+         <div class="linea1">
+                <img src="./img/Vector.png" alt="signo de exclamacion" class="vector">
+                <p class="linea_texto">Solo letras minúsculas y sin acentos</p>
+            </div>
+        <div class="contenedor-botones">
+                <button class="btn" id="encriptar">Encriptar</button>
+                <button class="btn" id="desencriptar">Desencriptar</button>
+            </div>
+	</section>
+	<section class="seccion2">
+                <textarea  id="resultado" class="input-text-area" cols="30" rows="10"></textarea>
+                <div id="ocultar">
+                <img src="./img/Muñeco.png" alt="Muneco" class="ocultar__muneco">
+                <h2 class="ocultar__titulo">Ningún mensaje fue encontrado</h2>
+                <p class="ocultar__parrafo">Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
+                <div class="contenedor_btncopiar">
+                <button class="btn"id="copiar">Copiar</button>
+                </div>
+	</section>
+	</main>
+         <!-- Pie de pagina con redes sociales -->
+
+
+          <footer class="contenedor_footer">
+            <ul class="contenedor-lista">
+               
+                <li><a href="https://www.linkedin.com/in/gabriela-batista-28a7b31b4/" target="_blank" class="linkedin"><i
+                            class="fa fa-linkedin fa-fw"></i></a></li>
+                <li><a href="https://github.com/onfevs/" target="_blank" class="github"><i><i
+                                class="fa fa-github fa-fw"></i></a></li>
+            </ul>
+                <p class="contenedor-copyright">Copyright &copy;2022 - Encriptador Challenge Oracle Next One
+                by <span> Gabriela Batista</span></p>
+        </footer>
+
+    </div>
+</body>
+<!-- Iconos de las redes -->
+
+<script src="https://kit.fontawesome.com/b3310eed91.js" crossorigin="anonymous"></script>
+
+
+    <script src="codigo.js"></script>
+</body>
+</html>
